@@ -5,8 +5,8 @@ module.exports.config = {
 	credits: "Nayan",
 	prefix: true,
 	description: "ban or unblock users",
-	category: "boxusers",
-	usages: " ",
+	category: "admin",
+	usages: "all",
 	cooldowns: 5
 };
 
