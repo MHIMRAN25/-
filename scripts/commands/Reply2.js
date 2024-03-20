@@ -1,12 +1,16 @@
 const fs = require("fs");
 module.exports.config = {
-	name: "sad",
-    version: "1.1.1",
-	hasPermssion: 0,
-	credits: "Kawsar", 
-	description: "Just Respond",
-	commandCategory: "Kawsar",
-    cooldowns: 5, 
+    name: "sad",
+  version: "1.0.0",
+  permission: 0,
+  credits: "Nayan",
+  description: "msg",
+  prefix: true, 
+  category: "kawsar", 
+  usages: "",
+  cooldowns: 5,
+  dependencies: {
+	}
 };
 
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
