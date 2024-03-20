@@ -1,6 +1,6 @@
 const fs = require("fs");
 module.exports.config = {
-    name: "salam",
+    name: "reply",
   version: "1.0.0",
   permission: 0,
   credits: "Nayan",
@@ -18,15 +18,12 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	let react = event.body.toLowerCase();
 	if(react.includes("السلام عليكم") ||
      react.includes("السلام عليكم و الرحمة") || 
-react.includes("assalamu alaikum") || react.includes("xan") || react.includes("xanu") || react.includes("sona") ||
+react.includes("assalamu alaikum") ||
 react.includes("assalamu alaykum") ||
-react.includes("আসসালামু আলাইকুম") || react.includes("xuna") || react.includes("ভালবাসি") ||
+react.includes("আসসালামু আলাইকুম") ||
 react.includes("আসসালামু আলাইকুম ওয়া রহমাতুল্লাহি") ||
 react.includes("আসসালামু আলাইকুম ওয়া রহমাতুল্লাহি ওয়া বারাকাতুহ") ||
-react.includes("") ||
-react.includes("") ||  
-react.includes("") ||
-react.includes("🤤")) {
+react.includes("🥰")) {
 		var msg = {
 				body: "وعليكم السلام ورحمه الله وبركاته🥰🥰!!🌚"
 			}
