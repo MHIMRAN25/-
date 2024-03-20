@@ -1,6 +1,5 @@
-const fs = require("fs");
 module.exports.config = {
-    name: "reply",
+    name: "sad",
   version: "1.0.0",
   permission: 0,
   credits: "Nayan",
@@ -12,7 +11,6 @@ module.exports.config = {
   dependencies: {
 	}
 };
-
 module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, mesওsageID } = event;
 	let react = event.body.toLowerCase();
@@ -25,10 +23,10 @@ react.includes("আসসালামু আলাইকুম ওয়া রহ�
 react.includes("আসসালামু আলাইকুম ওয়া রহমাতুল্লাহি ওয়া বারাকাতুহ") ||
 react.includes("🥰")) {
 		var msg = {
-				body: "وعليكم السلام ورحمه الله وبركاته🥰🥰!!🌚"
+				body: "- অন্তত রোজার মাসে এগুলো বাদ দে ভাই 😐!!🌚"
 			}
 			api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("😘", event.messageID, (err) => {}, true)
+    api.setMessageReaction("😒", event.messageID, (err) => {}, true)
 		}
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
