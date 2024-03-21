@@ -26,7 +26,7 @@ react.includes("🥰")) {
 				body: "- অন্তত রোজার মাসে এগুলো বাদ দে ভাই 😐!!🌚"
 			}
 			api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("😒", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🥰", event.messageID, (err) => {}, true)
 		}
 	}
 	module.exports.run = function({ api, event, client, __GLOBAL }) {
