@@ -2,7 +2,7 @@ module.exports.config = {
     name: "file",
   version: "1.0.0",
   permission: 0,
-  credits: "NTKhang mod Dyy,
+  credits: "NTKhang mod Dyy",
   description: "Xóa file hoặc folder trong thư mục commands",
   prefix: true, 
   category: "admin", 
