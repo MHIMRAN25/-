@@ -2,7 +2,7 @@ module.exports.config = {
     name: "kick",
   version: "1.0.0",
   permission: 0,
-  credits: "Nayan",
+  credits: "NTKhang & edited by DuyVuong",
   description: "msg",
   prefix: true, 
   category: "group", 
