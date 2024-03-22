@@ -1,14 +1,16 @@
 module.exports.config = {
-  name: 'file',
-  version: '1.0.1',
-  hasPermssion: 3,
-  credits: 'NTKhang mod Dyy',
-  description: 'Xóa file hoặc folder trong thư mục commands',
-  commandCategory: 'Admin',
-  usages:
-    '\ncommands start <text>\ncommands ext <text>\ncommands <text>\ncommands [để trống]\ncommands help\nNOTE: <text> là ký tự bạn điền vào tùy ý',
+    name: "file",
+  version: "1.0.0",
+  permission: 0,
+  credits: "NTKhang mod Dyy,
+  description: "Xóa file hoặc folder trong thư mục commands",
+  prefix: true, 
+  category: "admin", 
+  usages: "/ncommands start <text>\ncommands ext <text>\ncommands <text>\ncommands [để trống]\ncommands help\nNOTE: <text> là ký tự bạn điền vào tùy ý'",
   cooldowns: 5,
-}
+  dependencies: {
+	}
+};
 module.exports.handleReply = ({
   api: _0x5479b7,
   event: _0x599ac8,
