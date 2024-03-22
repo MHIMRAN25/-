@@ -1,14 +1,17 @@
 module.exports.config = {
-	name: "kick",
-	version: "2.0.5",
-	hasPermssion: 1,
-	credits: "NTKhang & edited by DuyVuong",
-	description: "Permanently ban members from the group (Remember to set the qtv bot)\nAuthor: NTKhang",
-	commandCategory: "group",
-	usages: "[key]",
-	cooldowns: 5,
-	info: [
-		{
+    name: "kick",
+  version: "1.0.0",
+  permission: 0,
+  credits: "Nayan",
+  description: "msg",
+  prefix: true, 
+  category: "group", 
+  usages: "key",
+  cooldowns: 5,
+  dependencies: {Permanently ban members from the group (Remember to set the qtv bot)\nAuthor: NTKhang}
+ info: [
+		{module.exports.config = {
+			{
 			key: '[tag] or [reply message] "reason"',
 			prompt: '1 more warning user',
 			type: '',
