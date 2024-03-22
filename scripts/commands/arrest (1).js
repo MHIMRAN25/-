@@ -1,18 +1,17 @@
 module.exports.config = {
     name: "arrest",
-    version: "2.0.0",
-    hasPermssion: 0,
-    credits: "Abdulla Tech 49",
-    description: "Arrrest a friend you mention",
-    commandCategory: "image",
-    usages: "[mention]",
-    cooldowns: 2,
-    dependencies: {
-        "axios": "",
+  version: "1.0.0",
+  permission: 0,
+  credits: "Abdulla Tech 49",
+  description: "Arrrest a friend you mention",
+  prefix: true, 
+  category: "image", 
+  usages: "[mention]",
+  cooldowns: 5,
+  dependencies: {"axios": "",
         "fs-extra": "",
         "path": "",
-        "jimp": ""
-    }
+        "jimp": ""}
 };
 
 module.exports.onLoad = async() => {
