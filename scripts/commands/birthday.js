@@ -1,13 +1,16 @@
 module.exports.config = {
-	name: "birthday",
-	version: "1.0.0",
-	hasPermssion: 0,
+    name: "birthday",
+  version: "1.0.0",
+  permission: 0,
   credits: "Mirai",
-	description: "Đếm ngược đến sinh nhật",
-	commandCategory: "Tiện ích",
-	cooldowns: 5
-}
-
+  description: "Đếm ngược đến sinh nhật",
+  prefix: true, 
+  category: "Tiện ích", 
+  usages: "",
+  cooldowns: 5,
+  dependencies: {
+	}
+};
 module.exports.run = function ({ event, api }) {
     const t = Date.parse("May 9, 2023 00:00:00") - Date.parse(new Date());
     const seconds = Math.floor( (t/1000) % 60 );
