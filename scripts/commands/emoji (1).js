@@ -1,12 +1,15 @@
 module.exports.config = {
     name: "emoji",
     version: "1.0.0",
-    hasPermssion: 0,
+    Permssion: 0,
     credits: "NTKhang",
     description: "Encrypt messages to Emoji and vice versa",
-    commandCategory: "Tool",
+    prefix: true, 
+    category: "Tool", 
     usages: "emojitroll en <text>\nor\nemojitroll de <text>",
-    cooldowns: 5
+    cooldowns: 5,
+    dependencies: {
+	}
 };
 
 module.exports.run = async ({ event, api, args }) => {
