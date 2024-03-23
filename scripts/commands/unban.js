@@ -1,12 +1,14 @@
+
 module.exports.config = {
     name: "unban",
     version: "1.0.0",
-    hasPermssion: 3,
-    credits: "ManhG",
-    description: "Gỡ ban nhóm và người dùng trong 1 nốt nhạc",
-    commandCategory: "Admin",
+    Permssion: 0,
+    credits: "Imran", 
+    prefix: true, 
+   description: "Gỡ ban nhóm và người dùng trong 1 nốt nhạc",
+    Category: "Admin",
     usages: "",
-    cooldowns: 2,
+    cooldowns: 5,
     denpendencies: {}
 }, module.exports.run = async ({
     event: a,
