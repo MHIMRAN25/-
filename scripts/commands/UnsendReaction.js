@@ -11,7 +11,7 @@ module.exports.config = {
   cooldowns: 5,// Thời gian một người có thể lặp lại lệnh
   dependencies: {
   }
-}:
+};
 module.exports.run = async({ api, event, args }) => {
     const { threadID, messageID } = event;
     let path = __dirname + "/cache/unsendReaction.json";
