@@ -1,4 +1,4 @@
-};const fs = require('fs');
+const fs = require('fs');
 module.exports.config = {
     name: "unsendReaction", // Tên lệnh, được sử dụng trong việc gọi lệnh
   version: "1.0.0", // phiên bản của module này
