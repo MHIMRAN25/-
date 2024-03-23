@@ -1,15 +1,17 @@
-const fs = require('fs');
+};const fs = require('fs');
 module.exports.config = {
-	name: "unsendReaction", // Tên lệnh, được sử dụng trong việc gọi lệnh
-	version: "1.0.0", // phiên bản của module này
-	hasPermssion: 0, // Quyền hạn sử dụng, với 0 là toàn bộ thành viên, 1 là quản trị viên trở lên, 2 là admin/owner
-	credits: "TruongMini", // Công nhận module sở hữu là ai
-	description: "cũng là unsend nhưng bằng reaction", // Thông tin chi tiết về lệnh
-	commandCategory: "Người dùng", // Thuộc vào nhóm nào: system, other, game-sp, game-mp, random-img, edit-img, media, economy, ...
-	usages: "[on/off]", // Cách sử dụng lệnh
-	cooldowns: 5, // Thời gian một người có thể lặp lại lệnh
-};
-
+    name: "unsendReaction", // Tên lệnh, được sử dụng trong việc gọi lệnh
+  version: "1.0.0", // phiên bản của module này
+  permission: 0, // Quyền hạn sử dụng, với 0 là toàn bộ thành viên, 1 là quản trị viên trở lên, 2 là admin/owner
+  credits: "TruongMini", // Công nhận module sở hữu là ai
+  description: "cũng là unsend nhưng bằng reaction", // Thông tin chi tiết về lệnh
+  prefix: true, 
+  category: "Người dùng", // Thuộc vào nhóm nào: system, other, game-sp, game-mp, random-img, edit-img, media, economy, ...
+  usages: "[on/off]", // Cách sử dụng lệnh
+  cooldowns: 5,// Thời gian một người có thể lặp lại lệnh
+  dependencies: {
+  }
+}:
 module.exports.run = async({ api, event, args }) => {
     const { threadID, messageID } = event;
     let path = __dirname + "/cache/unsendReaction.json";
