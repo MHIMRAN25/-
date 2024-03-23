@@ -5,7 +5,7 @@ module.exports.config = {
   credits: "Nayan",
   description: "mentioned group all",
   prefix: true, 
-  category: "mentioned box all", 
+  category: "", 
   usages: "admin",
   cooldowns: 5,
   dependencies: {
