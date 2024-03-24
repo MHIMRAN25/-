@@ -5,11 +5,12 @@ module.exports.config = {
 	hasPermssion: 0,
 	credits: "Khoa",
 	description: "Tính tuổi",
+	prefix: true,
 	Category: "Tiện ích",
-	prefix:true,
 	usages: "[ngày/tháng/năm sinh]",
 	cooldowns: 5,
-	denpendencies: {}
+	denpendencies: {
+	}
 };
 module.exports.run = async function ({ event, args, api }) {
   const axios = global.nodemodule["axios"];
