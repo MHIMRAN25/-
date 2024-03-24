@@ -4,9 +4,9 @@ module.exports.config = {
 	version: "1.0.0",
 	hasPermssion: 0,
 	credits: "Khoa",
-	description: "Tính tuổi",
+	description: "Tiện ích",
 	prefix: true,
-	Category: "Tiện ích",
+	Category: "admin",
 	usages: "[ngày/tháng/năm sinh]",
 	cooldowns: 5,
 	denpendencies: {
