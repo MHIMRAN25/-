@@ -1,12 +1,14 @@
 module.exports.config = {
     name: "game",
     version: "1.0.0",
-    hasPermssion: 0,
+    Permssion: 0,
     credits: "tdunguwu",
     description: "Just Game ?",
-    commandCategory: "Game",
+    prefix:true,
+    Category: "Game",
     usages: "",
-    cooldowns: 5
+    cooldowns: 5,
+    denpendencies: {}
 };
 module.exports.run = async function ({ api, event, args, Currencies, Users }) {
   const { senderID, messageID, threadID } = event;
