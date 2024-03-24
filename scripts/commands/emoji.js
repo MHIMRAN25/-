@@ -1,3 +1,4 @@
+module.exports.config = {
 name: "emoji",
   version: "1.0.0",
   permission: 0,
