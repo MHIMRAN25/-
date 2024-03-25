@@ -2,10 +2,10 @@ module.exports.config = {
 	name: "jail",
 	version: "1.0.0",
 	Permssion: 0,
-	credits: "John Lester",
+	credits: "Imran",
 	description: "jail",
 	prefix:true,
-	Category: "edit-img",
+	Category: "Imran",
 	usages: "[blank or tag]",
 	cooldowns: 5,
 	dependencies: {"fs-extra": "","discord.js": "","discord-image-generation" :"","node-superfetch": ""}
